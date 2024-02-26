@@ -1,6 +1,7 @@
 package Mission;
 
 import java.util.Scanner;
+import Mission.Account;
 
 public class Bank {
 	static Scanner sc = new Scanner(System.in);
@@ -9,7 +10,6 @@ public class Bank {
 	static String deposotor;	// 예금주
 	static String depoNumber;	// 계좌
 	static Account acc = new Account();
-	
 	// 계좌 개설
 	static void Acc1() {
 		System.out.print("계좌번호>> ");
