@@ -27,7 +27,7 @@ public class Mission12 {
 			}
 			// 정렬 및 출력
 			Collections.sort(arr);
-			System.out.println("["+i+" 게임]"+arr);
+			System.out.println("["+(i+1)+" 게임]"+arr);
 		}
 		sc.close();
 	}
